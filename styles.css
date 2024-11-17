@@ -1,0 +1,16 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+
+.square {
+    flex: 1 0 calc(100% / 16);
+    aspect-ratio: 1;
+    background-color: blue;
+    border: 1px solid black;
+    box-sizing: border-box;
+    transition: backround-color 0.3s ease;
+}
